@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000;
+    overflow: hidden;
+}
+
+canvas {
+    border: 1px solid #fff;
+    width: 100%;
+    height: auto;
+    max-width: 800px; /* Maintain the maximum width for better scaling */
+}
